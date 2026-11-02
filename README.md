@@ -1,4 +1,4 @@
-# basecite-com
+# BaseCite
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,146 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-basecite-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://basecite.com/
+BaseCite provides an evidence‑context infrastructure for organizations that need to keep customer‑submitted materials private while allowing authorized AI systems to access bounded context. The platform records consent, provenance, and integrity metadata, and offers controlled publication rules for AI‑readable context. Public pages describe capabilities, API contracts, and MCP metadata, while private uploads remain secure. BaseCite does not verify truth, legal authority, or endorse any supplier, focusing solely on secure, scoped evidence delivery for AI applications.
+
+**Areas:** Company · AI · Evidence · Platform · Privacy
+
+## BaseCite on APIs.io
+
+Everything profiled for BaseCite is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/basecite-com/](https://apis.io/providers/basecite-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [BaseCite Admin API](https://apis.io/apis/basecite-com/basecite-com-admin-api/) — The Admin API from BaseCite — 2 operation(s) for admin.
+- [BaseCite AI API](https://apis.io/apis/basecite-com/basecite-com-ai-api/) — The Ai API from BaseCite — 2 operation(s) for ai.
+- [BaseCite OAuth API](https://apis.io/apis/basecite-com/basecite-com-oauth-api/) — The Oauth API from BaseCite — 1 operation(s) for oauth.
+- [BaseCite Organizations API](https://apis.io/apis/basecite-com/basecite-com-organizations-api/) — The Organizations API from BaseCite — 10 operation(s) for organizations.
+- [BaseCite Portal API](https://apis.io/apis/basecite-com/basecite-com-portal-api/) — The Portal API from BaseCite — 1 operation(s) for portal.
+- [BaseCite Sandbox API](https://apis.io/apis/basecite-com/basecite-com-sandbox-api/) — The Sandbox API from BaseCite — 4 operation(s) for sandbox.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Basecite Com Webhooks](https://apis.io/asyncapis/basecite-com/basecite-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Basecite Com Agentic Access](https://apis.io/agentic-access/basecite-com/basecite-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [getAiCapabilitiesResponse](https://apis.io/schemas/basecite-com/basecite-com-get-ai-capabilities-response/)
+- [getPartnerUploadStatusResponse](https://apis.io/schemas/basecite-com/basecite-com-get-partner-upload-status-response/)
+- [getSandboxInfoResponse](https://apis.io/schemas/basecite-com/basecite-com-get-sandbox-info-response/)
+- [getSandboxKeyInfoResponse](https://apis.io/schemas/basecite-com/basecite-com-get-sandbox-key-info-response/)
+- [issueSandboxCredentialResponse](https://apis.io/schemas/basecite-com/basecite-com-issue-sandbox-credential-response/)
+- [sandboxEchoResponse](https://apis.io/schemas/basecite-com/basecite-com-sandbox-echo-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Basecite Com Context](https://apis.io/jsonld/basecite-com/basecite-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [BaseCite API Rules](https://apis.io/rules/basecite-com/basecite-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Basecite Com Authentication](https://apis.io/security/basecite-com/basecite-com-authentication/)
+- [Basecite Com Domain Security](https://apis.io/security/basecite-com/basecite-com-domain-security/)
+- [Basecite Com Vulnerability Disclosure](https://apis.io/security/basecite-com/basecite-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Basecite Com Scopes](https://apis.io/scopes/basecite-com/basecite-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Basecite Com Plans Pricing](https://apis.io/plans/basecite-com/basecite-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://basecite.com/)
+- [Documentation](https://basecite.com/docs)
+- [API reference](https://basecite.com/developers)
+- [Pricing](https://basecite.com/pricing.md)
+- [Sign up](https://basecite.com/signup)
+- [Security](https://basecite.com/security)
+- [Terms of service](https://basecite.com/terms)
+- [Privacy policy](https://basecite.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 54.2** — developing · rubric 0.25.0 · scored 2026-11-02
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 60.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 42.1 |
+| Access clarity | 44.7 |
+
+**Agent readiness 64.6** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 37.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/basecite-com/](https://apis.io/providers/basecite-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for BaseCite: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/basecite-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
